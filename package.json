@@ -1,7 +1,23 @@
 {
-  "name": "Custom",
+  "name": "ipadAPI",
   "version": "1.0.0",
+  "description": "API developed using Ipad",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leninplts/ipadAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leninplts/ipadAPI/issues"
+  },
+  "homepage": "https://github.com/leninplts/ipadAPI#readme",
   "dependencies": {
-	"express"
+    "express": "^4.17.1"
   }
 }
